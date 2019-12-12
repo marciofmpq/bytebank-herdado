@@ -9,9 +9,14 @@ public class TestesReferencias {
         f1.setNome("Lua");
         f1.setSalario(2000.00);
 
+        EditorVideo e1 = new EditorVideo();
+        e1.setNome("Joca");
+        e1.setSalario(2500.00);
+
         ControleBonificacao controle =  new ControleBonificacao();
         controle.registra(g1);
         controle.registra(f1);
+        controle.registra(e1);
 
         System.out.println(controle.getSoma());
 
