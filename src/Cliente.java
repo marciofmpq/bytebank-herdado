@@ -1,4 +1,4 @@
-public abstract class Cliente extends Autenticavel{
+public class Cliente extends Autenticavel{
 
-    
+
 }
